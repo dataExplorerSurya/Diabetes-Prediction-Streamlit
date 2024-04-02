@@ -6,7 +6,7 @@ import joblib
 
 st.set_page_config(page_title="Prediction",page_icon=":⚕️:")
 # Load the trained model
-model = joblib.load("./svc.pkl")
+model = joblib.load("SVC.pkl")
 # Initialize StandardScaler
 scaler = StandardScaler()
 
