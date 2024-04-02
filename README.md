@@ -12,7 +12,7 @@ The project consists of the following main components:
 To run the Streamlit application locally, follow these steps:
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Run the Streamlit app using the command `streamlit run app.py`.
+3. Run the Streamlit app using the command `streamlit run stremlit.py`.
 4. Access the application in your web browser at the provided URL.
 
 ## 📊 Dataset Description
