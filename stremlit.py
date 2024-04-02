@@ -10,8 +10,9 @@ st.set_page_config(page_title="Prediction",page_icon=":⚕️:")
 # Load the model
 # model = joblib.load('svc.pkl')
 
-with open('svc.pkl', 'rb') as f:
-    model = pickle.load(f)
+# with open('svc.pkl', 'rb') as f:
+#     model = pickle.load(f)
+model = pickle.load(open('svc.pkl', 'rb'))
 # Initialize StandardScaler
 scaler = StandardScaler()
 
