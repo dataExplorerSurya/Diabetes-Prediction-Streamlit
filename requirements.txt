@@ -5,3 +5,4 @@ numpy==1.21.2
 matplotlib==3.4.3
 seaborn==0.11.2
 joblib==1.1.0
+pickle5==0.0.11
